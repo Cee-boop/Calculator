@@ -37,6 +37,7 @@ def cont(total_sum):
 
     if operator == "^":
         square_root = root(total_sum)
+        new_number()
 
     # check operator symbol is valid:
     valid = if_valid(operator)
